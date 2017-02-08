@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SnabbWall</title>
+    <link>http://snabbwall.org/</link>
+    <description>Recent content on SnabbWall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2017 16:52:43 +0200</lastBuildDate>
+    <atom:link href="http://snabbwall.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fourth milestone: We Have a Firewall!</title>
+      <link>http://snabbwall.org/news/2017/02/08/fourth-milestone-we-have-a-firewall</link>
+      <pubDate>Wed, 08 Feb 2017 16:52:43 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/news/2017/02/08/fourth-milestone-we-have-a-firewall</guid>
+      <description>&lt;p&gt;Igalian &lt;a href=&#34;https://www.asumu.xyz/&#34;&gt;Asumu Takikawa&lt;/a&gt; has completed the next
+development milestone of &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt;. This means
+that the &lt;code&gt;L7fw&lt;/code&gt; application is now
+&lt;a href=&#34;https://github.com/aperezdc/snabb/blob/snabbwall/src/apps/wall/l7fw.lua#L38&#34;&gt;available&lt;/a&gt;,
+as well as a &lt;code&gt;snabb wall filter&lt;/code&gt; command, which can be readily used. With
+these additions, the fourth development milestone of our &lt;a href=&#34;http://snabbwall.org/roadmap/&#34;&gt;development
+roadmap&lt;/a&gt; is now completed. Make sure to check out
+Asumu&amp;rsquo;s complete &lt;a href=&#34;https://www.asumu.xyz/blog/2017/01/27/snabbwall-s-firewall-app-l7fw/&#34;&gt;writeup about the new features&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have also started using the &lt;a href=&#34;https://github.com/aperezdc/snabb/wiki&#34;&gt;project
+wiki&lt;/a&gt; to write down some technical
+information for developers wanting to use the
+&lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; components in their Snabb applications,
+or looking into contributing to the project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Third milestone: SnabbWall can now analyze traffic</title>
+      <link>http://snabbwall.org/news/2016/08/18/third-milestone-snabbwall-can-now-analyze-traffic</link>
+      <pubDate>Thu, 18 Aug 2016 12:14:20 +0300</pubDate>
+      
+      <guid>http://snabbwall.org/news/2016/08/18/third-milestone-snabbwall-can-now-analyze-traffic</guid>
+      <description>&lt;p&gt;After a small hiatus, work on &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; is
+progressing steadily again: the &lt;code&gt;L7Spy&lt;/code&gt; Snabb application and the &lt;code&gt;snabb wall
+spy&lt;/code&gt; command, which can be used to scan network traffic and detect L7 data
+flows, have landed in the repository. Our main developer has &lt;a href=&#34;https://perezdecastro.org/2016/snabbwalls-l7spy-analyzer.html&#34;&gt;written a
+lengthy post&lt;/a&gt; about these features, which completes the third
+milestone of the &lt;a href=&#34;http://snabbwall.org/roadmap/&#34;&gt;development roadmap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/aperezdc/ljndpi/&#34;&gt;ljndpi&lt;/a&gt; FFI binding has received updates as well. Starting with
+&lt;a href=&#34;https://github.com/aperezdc/ljndpi/releases/tag/v0.0.3&#34;&gt;version 0.0.3&lt;/a&gt;, it can be used with nDPI 1.8; and in order to ease
+adoption of &lt;code&gt;ljndpi&lt;/code&gt; by projects other than &lt;span
+class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt;, the module has been &lt;a href=&#34;https://luarocks.org/modules/aperezdc/ljndpi&#34;&gt;uploaded to the
+LuaRocks repository&lt;/a&gt;. For more details, you can read
+&lt;a href=&#34;https://perezdecastro.org/2016/ljndpi-0.0.3-released.html&#34;&gt;Adrián&amp;rsquo;s article on this topic&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development reaches second milestone</title>
+      <link>http://snabbwall.org/news/2016/01/25/development-reaches-second-milestone</link>
+      <pubDate>Mon, 25 Jan 2016 15:40:29 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/news/2016/01/25/development-reaches-second-milestone</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://github.com/aperezdc/ljndpi/releases/tag/v0.0.1&#34;&gt;first release&lt;/a&gt; of &lt;a href=&#34;https://github.com/aperezdc/ljndpi&#34;&gt;ljndpi&lt;/a&gt;, our binding for the &lt;a href=&#34;http://www.ntop.org/products/deep-packet-inspection/ndpi/&#34;&gt;nDPI&lt;/a&gt; deep packet inspection library, marks the completion of the second milestone of the &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; development &lt;a href=&#34;http://snabbwall.org/roadmap/&#34;&gt;roadmap&lt;/a&gt;. Our lead developer has written &lt;a href=&#34;http://perezdecastro.org/2016/ljndi-snabbwall-sidekick.html&#34;&gt;an article&lt;/a&gt; explaning how it was implemented.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing SnabbWall</title>
+      <link>http://snabbwall.org/news/2015/12/31/introducing-snabbwall</link>
+      <pubDate>Thu, 31 Dec 2015 12:39:13 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/news/2015/12/31/introducing-snabbwall</guid>
+      <description>&lt;p&gt;The project is officially started!  &lt;a href=&#34;http://perezdecastro.org&#34;&gt;Adrián Pérez&lt;/a&gt; has &lt;a href=&#34;http://perezdecastro.org/2015/introducing-snabbwall.html&#34;&gt;posted a writeup&lt;/a&gt; introducing the project and commenting on some of aspects of the &lt;a href=&#34;http://snabbwall.org/design/&#34;&gt;design&lt;/a&gt; of &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://snabbwall.org/design/</link>
+      <pubDate>Tue, 22 Dec 2015 23:26:17 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/design/</guid>
+      <description>
+
+&lt;h2 id=&#34;overview:83772ba7ad0304b1562d08f190539946&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; is a &lt;em&gt;modular&lt;/em&gt;, &lt;em&gt;application-level&lt;/em&gt; (Layer-7) firewall &lt;em&gt;suite&lt;/em&gt; for &lt;a href=&#34;http://snabb.co&#34;&gt;Snabb&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a &lt;em&gt;modular&lt;/em&gt; system, it provides a set of components which can be reused in other Snabb designs.&lt;/p&gt;
+
+&lt;p&gt;As an &lt;em&gt;application-level&lt;/em&gt; (Layer-7) firewall, it is able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inspect network traffic and detect flows of related data, and pinpoint which application has produced a certain data flow.&lt;/li&gt;
+&lt;li&gt;Filter (drop, reject, or accept) packets using criteria specified in a set of rules, which can use the information inferred by inspecting the packets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a &lt;em&gt;suite&lt;/em&gt;, it includes a complete firewall program out of the box.&lt;/p&gt;
+
+&lt;h2 id=&#34;architecture:83772ba7ad0304b1562d08f190539946&#34;&gt;Architecture&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/Span&gt; takes advantage of the &lt;a href=&#34;https://github.com/SnabbCo/snabb/blob/master/src/README.md#introduction&#34;&gt;separation in functional components&lt;/a&gt;, called &lt;em&gt;applications&lt;/em&gt; in Snabb jargon. The following diagram contains a simplified view of the system:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://snabbwall.org/images/diagrams/arch-blocks.png&#34; alt=&#34;Building blocks&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Building blocks
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The main components are &lt;strong&gt;L7 Spy&lt;/strong&gt; and &lt;strong&gt;L7 Firewall&lt;/strong&gt;, both are Snabb applications:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L7 Spy&lt;/strong&gt; (or &lt;code&gt;L7spy&lt;/code&gt; in short) inspects ingress network traffic, identifies related packets to group them in a &lt;em&gt;related data flow&lt;/em&gt;, and —if possible— determines which application has generated the data flow. This is done with the aid of the &lt;a href=&#34;http://www.ntop.org/products/deep-packet-inspection/ndpi/&#34;&gt;nDPI&lt;/a&gt; packet inspection library. The information gathered is attached to each packet as &lt;em&gt;metadata&lt;/em&gt;, and the packets are passed through unmodified.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L7 Firewall&lt;/strong&gt; (or &lt;code&gt;L7fw&lt;/code&gt; in short) receives a set of filtering &lt;em&gt;rules&lt;/em&gt;, tries to match ingress packets with each rule, and performs its associated action. The rules can perform matches on the metadata generated by the &lt;em&gt;L7 Spy&lt;/em&gt; application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;applications:83772ba7ad0304b1562d08f190539946&#34;&gt;Applications&lt;/h2&gt;
+
+&lt;h3 id=&#34;l7-spy:83772ba7ad0304b1562d08f190539946&#34;&gt;L7 Spy&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://snabbwall.org/images/diagrams/app-l7spy.png&#34; alt=&#34;L7 Spy application&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        L7 Spy application
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;strong&gt;L7 Spy&lt;/strong&gt; (&lt;code&gt;L7spy&lt;/code&gt;) application receives packets from another Snabb application as input, analyzes the packets it receives, and places them unchanged in the output. As a by-product of analyzing the packets, it may generate metadata indicating the kind of application and data payload that the packet contains. This metadata is de-coupled from the original packet data —which remains unchanged— and can be consumed by other Snabb applications-&lt;/p&gt;
+
+&lt;p&gt;Each instance of the &lt;code&gt;L7spy&lt;/code&gt; application maintain an internal &lt;em&gt;state&lt;/em&gt; which is updated as each packet is scanned. It contains information about previously inspected packets which is used to further improve identification of packets in the future. The &lt;em&gt;state&lt;/em&gt; is detached from the &lt;code&gt;L7fw&lt;/code&gt; application and two (or more) instances can share the same state:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://snabbwall.org/images/diagrams/app-l7spy-shared-state.png&#34; alt=&#34;Using a shared L7 Spy state&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Using a shared L7 Spy state
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The main use case for a the shared &lt;em&gt;state&lt;/em&gt; is correlating traffic which belongs to the same application flowing in both “send” and “receive” directions.&lt;/p&gt;
+
+&lt;h3 id=&#34;l7-firewall:83772ba7ad0304b1562d08f190539946&#34;&gt;L7 Firewall&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://snabbwall.org/images/diagrams/app-l7fw.png&#34; alt=&#34;L7 Firewall application&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        L7 Firewall application
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;strong&gt;L7 Firewall&lt;/strong&gt; (&lt;code&gt;L7fw&lt;/code&gt;) application receives packets from another Snabb application as input, applies a set of packet filtering &lt;em&gt;rules&lt;/em&gt;, and either &lt;em&gt;drops&lt;/em&gt;, &lt;em&gt;rehects&lt;/em&gt;, or &lt;em&gt;accepts&lt;/em&gt; the packet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Dropping&lt;/em&gt; a packet plainly ignores it, without forwarding it to the &lt;em&gt;output&lt;/em&gt;. The net effect is the same as if the packet were lost.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rejecting&lt;/em&gt;, similarly, does not forward it to the &lt;em&gt;output&lt;/em&gt;, but the sender of the packet is notified about the inability of delivering the packet by transmitting the appropriate ICMP messages to the sender.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Accepting&lt;/em&gt; a packet forwards it to the &lt;em&gt;output&lt;/em&gt;, effectively letting it pass through the firewall.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that the application by itself is unidirectional. While this may seem counterintuitive, allows for greater flexibility:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bidirectional filtering —both “send” and “receive” directions— is achieved using two instances with an optionally shared set of &lt;em&gt;rules&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;In many scenarios filtering is done in one direction only, and it is possible to use a single instance of the application — with reduced overhead. For example, most —if not all— of the work done by a firewall in front of a server is to only accept packets for the services provided by the server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;programs:83772ba7ad0304b1562d08f190539946&#34;&gt;Programs&lt;/h2&gt;
+
+&lt;p&gt;The &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; suite ships with a ready to use program which uses the &lt;a href=&#34;#l7-spy:83772ba7ad0304b1562d08f190539946&#34;&gt;L7 Spy&lt;/a&gt; and &lt;a href=&#34;#l7-firewall:83772ba7ad0304b1562d08f190539946&#34;&gt;L7 Firewall&lt;/a&gt; applications to implement a Layer-7 stateful firewall.&lt;/p&gt;
+
+&lt;p&gt;This application, runnable using the &lt;code&gt;snabb wall&lt;/code&gt; command, includes support for the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Loading its configuration and filtering rule sets from from configuration files. The syntax of the configuration files is an &lt;a href=&#34;https://en.wikipedia.org/wiki/Domain-specific_language#Usage_patterns&#34;&gt;internal DSL&lt;/a&gt; based on Lua. This takes advantage of the fact that the language is particularly well suited for &lt;a href=&#34;http://www.lua.org/pil/10.1.html&#34;&gt;data description&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Support for &lt;em&gt;dropping&lt;/em&gt;, &lt;em&gt;rejecting&lt;/em&gt;, or &lt;em&gt;accepting&lt;/em&gt; packets matched by the filtering rules.&lt;/li&gt;
+&lt;li&gt;Specifying a default policy (&lt;em&gt;drop&lt;/em&gt;, &lt;em&gt;reject&lt;/em&gt;, or &lt;em&gt;accept&lt;/em&gt;) for packets which are not matched by any of the configured filtering rules.&lt;/li&gt;
+&lt;li&gt;Optional logging and accounting of matched packets.&lt;/li&gt;
+&lt;li&gt;Operating in &lt;em&gt;bypass mode&lt;/em&gt;: using two physical NIC endpoints at each side, the traffic received from both sides is analyzed using &lt;a href=&#34;#l7-spy:83772ba7ad0304b1562d08f190539946&#34;&gt;L7spy&lt;/a&gt;, rules are applied using &lt;a href=&#34;#l7-firewall:83772ba7ad0304b1562d08f190539946&#34;&gt;L7fw&lt;/a&gt;, and packets allowed to pass through the firewall are put into the wire at the other side completely unchanged.&lt;/li&gt;
+&lt;li&gt;Operating in &lt;em&gt;hosted mode&lt;/em&gt;: the firewall appears to the host system as a pair of network interfaces (one for each end). In this mode the host system needs to be configured accordingly to forwarding packets into and out of the firewall.&lt;/li&gt;
+&lt;li&gt;Operating in &lt;em&gt;kitchen sink mode&lt;/em&gt;: the firewall passively scans all input packets and gathers information about them, without forwarding them to the output. This can be used together with the logging and accounting support to obtain per-application network statistics.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>http://snabbwall.org/roadmap/</link>
+      <pubDate>Wed, 02 Dec 2015 15:10:01 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/roadmap/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://snabbwall.org/development/&#34;&gt;development&lt;/a&gt; of &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; has been divided into the following milestones:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Milestone&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://snabbwall.org/design/&#34;&gt;completed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Decide the overall architecture of the system, which will use the &lt;a href=&#34;http://www.ntop.org/products/deep-packet-inspection/ndpi/&#34;&gt;nDPI&lt;/a&gt; packet inspection library. In particular, how access to the library is orchestrated will determine how other parts of the system have to be implemented, and care must be taken to avoid overhead when invoking its functions.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Library Bindings&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://perezdecastro.org/2016/ljndi-snabbwall-sidekick.html&#34;&gt;completed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Implement the Lua binding for nDPI, and any additional support code which may be needed by it.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;L7 Flow Detector&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://perezdecastro.org/2016/snabbwalls-l7spy-analyzer.html&#34;&gt;completed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Implement a reusable component for Snabb which detects application-level (L7) traffic flows, plus test programs and documentation.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;L7 Firewall Application&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.asumu.xyz/blog/2017/01/27/snabbwall-s-firewall-app-l7fw/&#34;&gt;completed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Implement a Snabb Switch application/program which can accept, drop or reject traffic based on the application-level data flows, using the component developed in the previous phase.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;in&amp;nbsp;progress&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Complete the documentation to cover the public API of the flow detector component, a guide for Snabb developers, and an user-oriented manual for the firewall application.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Testing and Benchmarking&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Provide a benchmark and test suite, plus performance reports.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Upstreaming&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The final goal is to have SnabbWall in good shape to make it available in the upstream Snabb Switch repository.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Note that, while the milestones above are detailed in a linear way, some tasks from different phases can —an may— be carried in parallel. For example, the documentation and upstreaming efforts are very likely to be done in parallel with the development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://snabbwall.org/development/</link>
+      <pubDate>Tue, 01 Dec 2015 23:27:38 +0200</pubDate>
+      
+      <guid>http://snabbwall.org/development/</guid>
+      <description>
+
+&lt;p&gt;Development of &lt;span class=&#34;appname&#34;&gt;SnabbWall&lt;/span&gt; takes place in the &lt;a href=&#34;https://github.com/aperezdc/snabb&#34;&gt;author&amp;rsquo;s development branch&lt;/a&gt; of Snabb, using branches with the &lt;code&gt;swall-&lt;/code&gt; prefix, and &lt;code&gt;snabbwall&lt;/code&gt; being the main development branch. Currently SnabbWall is based on the &lt;a href=&#34;https://github.com/SnabbCo/snabb/releases/tag/v2016.02&#34;&gt;Snabb 2016.07 &amp;ldquo;Xiguea&amp;rdquo;&lt;/a&gt; stable release.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://snabbwall.org/roadmap/&#34;&gt;project roadmap&lt;/a&gt; provides a good overview of the current development status.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Setting up Snabb Switch for development takes just a few minutes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/aperezdc/snabb
+cd snabb
+make -j
+src/snabb --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;snabb&lt;/code&gt; binary is stand-alone, includes all the Snabb applications —Snabb Wall among them—, and can be copied between machines.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
